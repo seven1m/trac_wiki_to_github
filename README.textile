@@ -1,0 +1,18 @@
+h1. Trac Wiki to GitHub
+
+This is a *very* rough start of a script to help convert Trac wiki syntax to GitHub friendly syntax.
+
+To use:
+# Copy your @trac.db@ file into the same directory as the @convert.rb@ script.
+# Create a @wiki@ directory to hold the output files.
+# @./convert.rb@
+
+Open each file, copy and paste into GitHub.
+
+h2. Caveats
+
+You still need to look over the markup and fix any mistakes. It isn't perfect by any means, but it will save some time.
+
+h2. To Do
+
+Beg GitHub to work on their API so this could be more automated.
